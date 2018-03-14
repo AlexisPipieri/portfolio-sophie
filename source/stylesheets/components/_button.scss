@@ -1,0 +1,13 @@
+.btn-sophie {
+  color: $gray;
+  border: 1px solid $gray;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100% ;
+}
+.btn-sophie:hover {
+  text-decoration: none;
+  color: $blue;
+  border: 1px solid $blue;
+}

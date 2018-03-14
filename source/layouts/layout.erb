@@ -8,10 +8,16 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
-    <%= yield %>
+    <div class="content-wrapper">
+      <div>
+        <%= yield %>
+        <%= partial "layouts/navigation" %>
+      </div>
+    </div>
   </body>
 </html>
