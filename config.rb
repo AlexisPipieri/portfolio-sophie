@@ -20,3 +20,6 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+# Remove .html extension from pages
+activate :directory_indexes
