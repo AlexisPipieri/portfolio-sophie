@@ -13,8 +13,8 @@ body {
 }
 .content-wrapper {
   min-height: 100vh;
-  padding: 20px 320px;
-  // padding: 20px 30vw;
+  // padding: 20px 320px;
+  padding: 20px 22vw;
   background-color: white;
   display:flex;
   align-items: center;
@@ -45,7 +45,12 @@ body {
 //     padding: 20px 20px;
 //   }
 // }
-@media(max-width: 1200px) {
+@media(max-width: 768px) {
+  .content-wrapper {
+    padding: 20px 10vw;
+  }
+}
+@media(max-width: 425px) {
   .content-wrapper {
     padding: 20px 20px;
   }

@@ -12,3 +12,12 @@
 .logo {
   margin-top: 40px;
 }
+@media(max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+.workshop-video {
+  margin-top: 60px;
+}
