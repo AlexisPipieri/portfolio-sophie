@@ -42,13 +42,15 @@
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   </head>
   <body>
-    <div class="content-wrapper">
-      <div style="width: 100%;">
-        <%#= partial "layouts/navbar" %>
-        <div class="content">
-          <%= yield %>
+    <div class="layout">
+      <%= partial "layouts/navbar" %>
+      <div class="content-wrapper">
+        <div style="width: 100%;">
+          <div class="content">
+            <%= yield %>
+          </div>
+          <%= partial "layouts/navigation" %>
         </div>
-        <%= partial "layouts/navigation" %>
       </div>
     </div>
   </body>
