@@ -44,7 +44,10 @@
   <body>
     <div class="content-wrapper">
       <div style="width: 100%;">
-        <%= yield %>
+        <%#= partial "layouts/navbar" %>
+        <div class="content">
+          <%= yield %>
+        </div>
         <%= partial "layouts/navigation" %>
       </div>
     </div>

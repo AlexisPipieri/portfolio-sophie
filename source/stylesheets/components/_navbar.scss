@@ -1,0 +1,25 @@
+/* Main navbar */
+.headers {
+  background: white;
+  height: 100px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: $gray;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+/* Left section */
+.left {
+
+}
+
+/* Right section */
+.right {
+}

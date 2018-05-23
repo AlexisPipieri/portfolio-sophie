@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "link": "https://blog.spendesk.com/fr/fintech-ux-design-utilisateur",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
+      "title": "Fintech et UX Design : remettre l’utilisateur au coeur de sa stratégie",
+      "image": "https://blog.spendesk.com/hubfs/ux-design-fintech.png?t=1526459193500",
+      "tag": "UX"
+    },
+    {
+      "link": "https://www.abtasty.com/fr/blog/ux-designers-reflexions-personnalisation-onsite/",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
+      "title": "Nos UX Designers partagent 7 réflexions sur la personnalisation onsite",
+      "image": "https://www.abtasty.com/content/uploads/7designerinsightsphoto-1-1400x400.jpg",
+      "tag": "UX"
+    },
+    {
+      "link": "https://www.abtasty.com/fr/blog/emotions-psychologie-decision-conversions/",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
+      "title": "Quels rôles jouent les émotions dans la prise de décision ?",
+      "image": "https://www.abtasty.com/content/uploads/decision-articleblog-1400x400.jpg",
+      "tag": "CRO"
+    },
+    {
+      "link": "https://blog.alan.eu/brigad-f9e2b82d0ad1",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063320/logo-alan.svg",
+      "title": "Brigad choisit Alan pour les Brigaders comme pour ses salariés",
+      "image": "https://cdn-images-1.medium.com/max/1000/1*rnPpU1BMwAHm2LlHA-eFbw.png",
+      "tag": ""
+    },
+    {
+      "link": "https://www.uptilab.com/fr/comment-tirer-profit-des-resultats-dun-test-ab-meme-sil-nest-pas-concluant/",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063517/logo-uptilab.png",
+      "title": "Comment tirer profit des résultats d'un test AB... même s'il n'est pas concluant ?",
+      "image": "https://www.uptilab.com/wp-content/uploads/2016/11/abtest-results-article3.png",
+      "tag": "AB TEST"
+    },
+    {
+      "link": "https://blog.shine.fr/%C3%A7a-y-est-jai-cr%C3%A9%C3%A9-mon-entreprise-j-ai-mon-siret-maintenant-je-fais-quoi-e742357aba0c",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063449/shine-logo.jpg",
+      "title": "Ça y est j’ai créé mon entreprise, j’ai mon SIRET. Maintenant, je fais quoi ?",
+      "image": "https://cdn-images-1.medium.com/max/1600/1*Ri90FR-5kwW2768o7uBwIg.png",
+      "tag": "FREELANCING"
+    }
+  ]
+}
