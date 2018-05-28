@@ -11,17 +11,25 @@
   a {
     text-decoration: none;
     color: $gray;
-    &:hover {
-      color: $blue;
-    }
+    // &:hover {
+    //   color: $blue;
+    // }
   }
 }
 
 /* Left section */
 .left {
-
 }
-
+.left-item {
+  &:hover {
+    color: $blue;
+  }
+}
 /* Right section */
 .right {
+}
+.right-item {
+  // border-bottom: 3px solid $blue;
+  box-shadow: inset 0 -8px $blue;
+  font-weight: bold;
 }
