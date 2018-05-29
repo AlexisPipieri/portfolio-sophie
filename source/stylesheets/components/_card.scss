@@ -8,6 +8,7 @@
   text-align: left;
   color: $gray;
   transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+  position: relative;
   &:hover {
     box-shadow: 0 1px 20px 0 hsla(0, 0%, 0%, 0.2);
     transform: translate(0,-10px);
