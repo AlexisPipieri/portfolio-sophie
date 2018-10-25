@@ -1,0 +1,35 @@
+#projects {
+  padding-top: 100px;
+}
+
+// Bootstrap tabs redesign
+.custom-tabs {
+  border-bottom: none;
+}
+
+.custom-tabs > li > a {
+  color: $gray;
+  background-color: white;
+}
+
+.custom-tabs > li > a:hover {
+  color: $blue;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.custom-tabs > li.active > a, .custom-tabs > li.active > a:focus {
+  color: $blue;
+  background-color: white;
+  border: none;
+}
+
+.nav-tabs > li.active > a:hover {
+  background-color: white;
+  border: none;
+}
+
+.nav > li > a {
+  padding: 0 15px;
+}
+

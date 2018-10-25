@@ -1,10 +1,10 @@
 /* Main navbar */
-.headers {
+.header {
   background: white;
-  height: 50px;
+  height: 48px;
   // padding: 0px 30px;
   // padding: 20px 22vw;
-  padding: 20px 22vw 0 22vw;
+  padding-top: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,19 +13,33 @@
     text-decoration: none;
     color: $gray;
     &:hover {
-      color: $blue;
+      box-shadow: inset 0 -6px 0 rgba($blue, 0.4);
+      transition: all .15s ease-in;
     }
   }
 }
 
-/* Left section */
-.left {
+.center {
+  font-size: 24px;
+  a {
+    text-decoration: none;
+    color: $gray;
+    &:hover {
+      color: $blue;
+      box-shadow: none;
+    }
+  }
 }
+
 .left-item {
+  margin-right: 24px;
 }
-/* Right section */
-.right {
+.left-item:last-child {
+  margin: 0;
 }
 .right-item {
-  border-bottom: 3px solid $blue;
+  margin-left: 24px;
+}
+.right-item:first-child {
+  margin: 0;
 }

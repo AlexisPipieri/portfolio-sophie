@@ -1,14 +1,15 @@
-<!-- <div class="container"> -->
-  <div class="headers">
-    <!-- Home -->
-    <div class="left">
-      <% unless current_page.url == '/' %>
-        <a class="left-item" href="/"><i class="fas fa-angle-left"></i> HOME</a>
-      <% end %>
-    </div>
-    <!-- Right Navigation -->
-    <div class="right">
-      <%= link_to "BLOG", "http://prosa.fr", class:"right-item", target:"_blank" %>
-    </div>
+<div class="header">
+  <div class="left">
+    <%= link_to "About", "about", class:"left-item" %>
+    <%= link_to "Clients", "clients", class:"left-item" %>
+    <%= link_to "Projects", "projects", class:"left-item" %>
   </div>
-<!-- </div> -->
+  <div class="center">
+    <%= link_to "Sophie IANIRO", "index", class:"center-item" %>
+  </div>
+  <div class="right">
+    <%= link_to "Blog", "https://prosa.fr", class:"right-item", target:"_blank" %>
+    <%= link_to "Medium", "https://medium.com/@Sophia_niro", class:"right-item", target:"_blank" %>
+    <%= link_to "Contact", "contact", class:"right-item" %>
+  </div>
+</div>

@@ -43,13 +43,10 @@
   </head>
   <body>
     <div class="layout">
-      <%= partial "layouts/navbar" %>
-      <div class="content-wrapper">
-        <div style="width: 100%;">
-          <div class="content">
-            <%= yield %>
-          </div>
-          <%= partial "layouts/navigation" %>
+      <div class="container">
+        <%= partial "layouts/navbar" %>
+        <div class="container-inner">
+          <%= yield %>
         </div>
       </div>
     </div>
