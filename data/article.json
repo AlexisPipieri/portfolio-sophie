@@ -1,67 +1,81 @@
 {
   "articles": [
     {
-      "link": "https://www.abtasty.com/fr/blog/ux-designers-reflexions-personnalisation-onsite/",
-      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
-      "title": "Nos UX Designers partagent 7 réflexions sur la personnalisation onsite",
-      "image": "https://www.abtasty.com/content/uploads/leadgen-booklet-featured-es-848x400.jpg",
-      "tag": "UX | Personnalisation web"
-    },
-    {
-      "link": "https://blog.shine.fr/%C3%A7a-y-est-jai-cr%C3%A9%C3%A9-mon-entreprise-j-ai-mon-siret-maintenant-je-fais-quoi-e742357aba0c",
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063449/shine-logo.jpg",
-      "title": "Ça y est j’ai créé mon entreprise, j’ai mon SIRET. Maintenant, je fais quoi ?",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*Ri90FR-5kwW2768o7uBwIg.png",
-      "tag": "FREELANCING"
-    },
-    {
       "link": "https://www.lewagon.com/fr/blog/est-ce-que-tout-le-monde-peut-apprendre-a-coder",
       "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063558/logo-lewagon.png",
       "title": "Est-ce que tout le monde peut apprendre à coder ?",
       "image": "https://raw.githubusercontent.com/lewagon/www-images/master/blog/posts/est-ce-que-tout-le-monde-peut-apprendre-a-coder.jpg",
-      "tag": "Code"
-    },
-    {
-      "link": "https://blog.spendesk.com/fr/fintech-ux-design-utilisateur",
-      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
-      "title": "Fintech et UX Design : remettre l’utilisateur au coeur de sa stratégie",
-      "image": "https://blog.spendesk.com/hubfs/ux-design-fintech.png?t=1526459193500",
-      "tag": "UX | Fintech"
-    },
-    {
-      "link": "https://www.uptilab.com/fr/comment-tirer-profit-des-resultats-dun-test-ab-meme-sil-nest-pas-concluant/",
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063517/logo-uptilab.png",
-      "title": "Comment tirer profit des résultats d'un test AB... même s'il n'est pas concluant ?",
-      "image": "https://www.uptilab.com/wp-content/uploads/2016/11/abtest-results-article3.png",
-      "tag": "AB TEST"
-    },
-    {
-      "link": "https://www.abtasty.com/fr/blog/product-team-derniere-innovation-abtasty/",
-      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
-      "title": "Activez vos audiences avec nos Widgets prêts à l’emploi",
-      "image": "https://www.abtasty.com/content/uploads/Wordpress-Cover@2x-1400x400.png",
-      "tag": "Marketing Produit"
-    },
-    {
-      "link": "https://blog.alan.eu/recrutement-comment-favoriser-la-diversité-eb84fb8a3351",
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063320/logo-alan.svg",
-      "title": "Recrutement : comment favoriser la diversité ?",
-      "image": "https://cdn-images-1.medium.com/max/1600/1*1eJ_ySQC3FsW5sG7l1kEmQ.jpeg",
-      "tag": "Branding"
-    },
-    {
-      "link": "https://www.abtasty.com/fr/blog/emotions-psychologie-decision-conversions/",
-      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
-      "title": "Quels rôles jouent les émotions dans la prise de décision ?",
-      "image": "https://www.abtasty.com/content/uploads/decision-articleblog-1400x400.jpg",
-      "tag": "Optimisation | Conversion"
+      "tag": "SEO"
     },
     {
       "link": "https://blog.spendesk.com/fr/tableaux-de-bord-de-gestion",
       "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
       "title": "Tableaux de bord de gestion : l’essentiel à savoir",
       "image": "https://blog.spendesk.com/hubfs/Tableau-de-bord-gestion.png?t=1527254565637",
-      "tag": "Fintech | SEO"
+      "tag": "SEO"
+    },
+    {
+      "link": "https://www.cm.com/fr-fr/whatsapp/pourquoi-comment-api-entreprises/",
+      "logo": "",
+      "title": "Pourquoi et comment utiliser la nouvelle API de WhatsApp pour les entreprises?",
+      "image": "",
+      "tag": "SEO"
+    },
+    {
+      "link": "https://blog.shine.fr/%C3%A7a-y-est-jai-cr%C3%A9%C3%A9-mon-entreprise-j-ai-mon-siret-maintenant-je-fais-quoi-e742357aba0c",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063449/shine-logo.jpg",
+      "title": "Ça y est j’ai créé mon entreprise, j’ai mon SIRET. Maintenant, je fais quoi ?",
+      "image": "https://cdn-images-1.medium.com/max/1600/1*Ri90FR-5kwW2768o7uBwIg.png",
+      "tag": "Expertise"
+    },
+    {
+      "link": "https://www.uptilab.com/fr/comment-tirer-profit-des-resultats-dun-test-ab-meme-sil-nest-pas-concluant/",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063517/logo-uptilab.png",
+      "title": "Comment tirer profit des résultats d'un test AB... même s'il n'est pas concluant ?",
+      "image": "https://www.uptilab.com/wp-content/uploads/2016/11/abtest-results-article3.png",
+      "tag": "Expertise"
+    },
+    {
+      "link": "https://blog.spendesk.com/fr/fintech-ux-design-utilisateur",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
+      "title": "Fintech et UX Design : remettre l’utilisateur au coeur de sa stratégie",
+      "image": "https://blog.spendesk.com/hubfs/ux-design-fintech.png?t=1526459193500",
+      "tag": "Product"
+    },
+    {
+      "link": "https://www.abtasty.com/fr/blog/product-team-derniere-innovation-abtasty/",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
+      "title": "Activez vos audiences avec nos Widgets prêts à l’emploi",
+      "image": "https://www.abtasty.com/content/uploads/Wordpress-Cover@2x-1400x400.png",
+      "tag": "Product"
+    },
+    {
+      "link": "https://blog.alan.eu/recrutement-comment-favoriser-la-diversité-eb84fb8a3351",
+      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063320/logo-alan.svg",
+      "title": "Recrutement : comment favoriser la diversité ?",
+      "image": "https://cdn-images-1.medium.com/max/1600/1*1eJ_ySQC3FsW5sG7l1kEmQ.jpeg",
+      "tag": "HR"
+    },
+    {
+      "link": "https://www.abtasty.com/fr/cas-clients/ysl-beaute-augmente-transaction-online/",
+      "logo": "",
+      "title": "Yves Saint Laurent Beauté augmente ses transactions en ligne de + 10%",
+      "image": "",
+      "tag": "Use case"
+    },
+    {
+      "link": "https://www.abtasty.com/fr/livres-blancs/3-methodes-infaillibles-pour-booster-impact-tests/",
+      "logo": "",
+      "title": "3 méthodes infaillibles pour booster l’impact de vos testsd",
+      "image": "",
+      "tag": "ebook"
+    },
+    {
+      "link": "https://www.cm.com/fr-fr/guides/whatsapp/",
+      "logo": "",
+      "title": "Le guide complet pour tout savoir sur la nouvelle API WhatsApp pour les entreprises",
+      "image": "",
+      "tag": "ebook"
     }
   ]
 }

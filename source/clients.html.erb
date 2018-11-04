@@ -1,18 +1,37 @@
 <div id="clients">
-  <div class="page-content">
-    <div class="content-desc">
-      <div class="startups-logo">
-        <div class="row">
-          <% data.startups.startups.each do |startup| %>
-            <div class="col-xs-6 col-md-3">
-              <div class="card-logo" style="background-image: url(<%= startup["logo"] %>);">
-                <a class="card-link" href=<%= startup["link"] %> ></a>
-              </div>
+  <div class="startups-logo">
+    <div class="row">
+      <% data.startups.startups.each do |startup| %>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-logo" style="background-image: url(<%= startup["logo"] %>);">
+            <a class="card-link" href=<%= startup["link"] %> ></a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="clients-quotes">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card-quote">
+          <div class="quote">
+            Working with Sophie is not only taking advantage of her writing skills and knowledge in inbound marketing, but it's also learning a lot of things about marketing! It has been a very pleasant experience, and we will happily reproduce it if the opportunity comes again!
+          </div>
+          <div class="client-info">
+            <div class="client-image">
             </div>
-          <% end %>
+            <div class="client-name">
+              Estelle
+            </div>
+            <div class="client-position">
+              Content Manager
+            </div>
+            <div class="client-company">
+              Shine
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
