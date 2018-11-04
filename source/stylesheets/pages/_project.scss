@@ -3,6 +3,10 @@
 }
 
 // Bootstrap tabs redesign
+.nav{
+  display: table;
+  margin: 0 auto;
+}
 .custom-tabs {
   border-bottom: none;
 }
@@ -30,6 +34,11 @@
 }
 
 .nav > li > a {
-  padding: 0 15px;
+  padding: 0 40px;
 }
 
+@media(max-width: 600px) {
+  .nav > li > a {
+    padding: 0 10px;
+  }
+}
