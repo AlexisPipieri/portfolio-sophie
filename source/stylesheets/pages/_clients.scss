@@ -7,12 +7,18 @@
   }
 }
 
-.logo {
-  // margin-top: 40px;
-  margin-top: 20%;
+.startups-logo {
+  margin: 0 auto;
+  width: 60vw;
+  margin-top: 30px;
+}
+@media(max-width: 600px) {
+  .startups-logo {
+    margin-top: 0;
+  }
 }
 .card-logo {
-  height: 40px;
+  height: 30px;
   background-size: contain;
   background-position: center;
   color: white;
@@ -34,8 +40,32 @@
   .logo {
     width: 100px;
   }
+  .workshop-video {
+    width: 80%;
+  }
 }
 
 .workshop-video {
+  margin: 0 auto;
   margin-top: 60px;
+  width: 60%;
+  margin-top: 50px;
+}
+
+@media(max-width: 600px) {
+  .workshop-video {
+    width: 80%;
+  }
+}
+
+.quote {
+  position: relative;
+  top: -32px;
+}
+
+.clients-quotes {
+  margin-top: 70px;
+}
+.quote-credentials {
+  font-weight: 600;
 }

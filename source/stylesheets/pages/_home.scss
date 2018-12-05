@@ -1,10 +1,10 @@
 body {
+  background-color: white;
   h1 {
-    color: $blue;
-    letter-spacing: 0.2em;
+    color: $gray;
+    letter-spacing: 0.1em;
   }
   a {
-    font-family: Quicksand;
     text-decoration: none;
     &:hover {
       text-decoration: none;
@@ -18,16 +18,19 @@ body {
     line-height: 1.6em;
   }
 }
-.content-wrapper {
-  min-height: 100vh;
-  // padding: 20px 320px;
-  padding: 20px 22vw;
-  background-color: white;
-  display:flex;
-  align-items: center;
-}
+// .content-wrapper {
+//   min-height: 100vh;
+//   padding: 20px 22vw;
+//   background-color: white;
+// }
 
-.content {
+.container-inner {
+  height: calc(100vh - 66px);
+}
+@media(max-width: 600px) {
+  .container-inner {
+    height: 100%;
+  }
 }
 
 #home {
@@ -36,38 +39,14 @@ body {
     font-size: 42px;
   }
 }
-
-.page-content {
-  background-color: white;
-  color: $gray;
+#home-title {
+  padding-top: 160px;
   text-align: center;
-  h1 {
-    font-size: 26px;
-  }
+  width: 50%;
+  margin: 0 auto;
 }
-
-.home-title {
-  padding-bottom: 20px;
-}
-.home-bio {
-  padding-top: 20px;
-}
-.content-desc {
-  padding: 20px 35px 0 35px;
-}
-
-// @media(max-width: 720px) {
-//   .content-wrapper {
-//     padding: 20px 20px;
-//   }
-// }
-@media(max-width: 768px) {
-  .content-wrapper {
-    padding: 20px 10vw;
-  }
-}
-@media(max-width: 425px) {
-  .content-wrapper {
-    padding: 20px 20px;
+@media(max-width: 500px) {
+  #home-title {
+    width: 80%;
   }
 }

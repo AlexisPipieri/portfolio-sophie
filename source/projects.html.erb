@@ -1,0 +1,86 @@
+<div id="projects">
+  <ul class="nav nav-tabs custom-tabs" id="myTab" role="tablist">
+    <li class="nav-item active">
+      <a class="nav-link active" id="strategy-tab" data-toggle="tab" href="#strategy" role="tab" aria-controls="strategy" aria-selected="true">Strategy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="writing-tab" data-toggle="tab" href="#writing" role="tab" aria-controls="writing" aria-selected="false">Writing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="workshop-tab" data-toggle="tab" href="#workshop" role="tab" aria-controls="workshop" aria-selected="false">Workshop</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane active fade in" id="strategy" role="tabpanel" aria-labelledby="strategy-tab">
+      <div id="strategy-quotes">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card card-quote">
+              <div class="quote">
+                Sophie is keenly interested, not only in content creation, but in its promotion, ROI and strategic value. She provides valuable input regarding our content marketing strategy on the French market. She's a pleasure to work with, focused and always ready with new ideas.
+              </div>
+              <div class="quote-credentials">
+                <span class="client-name">Robin Nichols</span>, <span class="client-position">Content Marketing Manager</span> at <span class="client-company"><a href="https://www.shine.fr/", target="_blank">AB Tasty</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card card-quote">
+              <div class="quote">
+                Sophie helped us lay down our content strategy and publication planning. She wrote several articles for us and even put together a workshop to help freelancers manage their content strategy. She's very knowledgeable, hard working, and it's a repeated pleasure to work with her!
+              </div>
+              <div class="quote-credentials">
+                <span class="client-name">Nicolas Reboud</span>, <span class="client-position">Co-founder & CEO</span> at <span class="client-company"><a href="https://www.shine.fr/", target="_blank">Shine</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-sm-offset-3">
+            <div class="card card-quote">
+              <div class="quote">
+                For the Conversion Summit, Sophie worked on all the marketing and communication of the event, online and offline. She created all the content of graphic productions I made, thanks to her listening and her rigor we were perfectly aligned with AB Tasty's global strategy. It was a pleasure working together, I highly recommend the quality of his writing, the freshness of his ideas and his work dynamic! Thanks again!
+              </div>
+              <div class="quote-credentials">
+                <span class="client-name">Coraline Mas-Prévost</span>, <span class="client-position">Freelance Graphic Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+      <div class="articles">
+        <div class="row">
+          <% data.article.articles.each do |article| %>
+            <div class="col-xs-12 col-sm-4">
+              <% link_to article["link"], target: "_blank" do %>
+                <div class="card card-article">
+                  <div class="article">
+                    <div class="article-logo">
+                      <img src=<%= article["logo"] %> alt="logo" style="height: 30px;">
+                    </div>
+                    <div class="article-title">
+                      <%= article["title"] %>
+                    </div>
+                    <div class="article-image" style="background-image: url(<%= article["image"] %>);"></div>
+                    <div class="article-footer">
+
+
+                      <%= article["tag"].upcase %>
+                    </div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="workshop" role="tabpanel" aria-labelledby="workshop-tab">
+      <div class="workshop-video">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" type="text/html" src="https://www.youtube.com/embed/gd6nF6DMO80?autoplay=0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

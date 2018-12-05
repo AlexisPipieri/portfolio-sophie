@@ -1,0 +1,58 @@
+#projects {
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+@media(max-width: 600px) {
+  #projects {
+    padding-top: 50px;
+  }
+}
+
+.articles {
+  margin-top: 30px;
+}
+
+#strategy-quotes {
+  margin-top: 30px;
+}
+
+// Bootstrap tabs redesign
+.nav{
+  display: table;
+  margin: 0 auto;
+}
+.custom-tabs {
+  border-bottom: none;
+}
+
+.custom-tabs > li > a {
+  color: $gray;
+  background-color: white;
+}
+
+.custom-tabs > li > a:hover {
+  color: $blue;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.custom-tabs > li.active > a, .custom-tabs > li.active > a:focus {
+  color: $blue;
+  background-color: white;
+  border: none;
+}
+
+.nav-tabs > li.active > a:hover {
+  background-color: white;
+  border: none;
+}
+
+.nav > li > a {
+  padding: 0 40px;
+}
+
+@media(max-width: 600px) {
+  .nav > li > a {
+    padding: 0 10px;
+  }
+}

@@ -1,26 +1,35 @@
 <div id="clients">
-  <div class="page-content">
-    <h1>
-      CLIENTS
-    </h1>
-    <div class="content-desc">
-      <p>
-        J'ai eu l'occasion de collaborer avec plusieurs startups sur leur projet de création de contenu et de stratégie d'inbound marketing.
-      </p>
-      <div class="startups-logo">
-        <div class="row">
-          <% data.startups.startups.each do |startup| %>
-            <div class="col-xs-6 col-md-3">
-              <div class="card-logo" style="background-image: url(<%= startup["logo"] %>);">
-                <a class="card-link" href=<%= startup["link"] %> ></a>
-              </div>
-            </div>
-          <% end %>
+  <div class="startups-logo">
+    <div class="row">
+      <% data.startups.startups.each do |startup| %>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-logo" style="background-image: url(<%= startup["logo"] %>);">
+            <a class="card-link" href=<%= startup["link"] %> ></a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="clients-quotes">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card card-quote">
+          <div class="quote">
+            Working with Sophie is not only taking advantage of her writing skills and knowledge in inbound marketing, but it's also learning a lot of things about marketing! It has been a very pleasant experience, and we will happily reproduce it if the opportunity comes again!
+          </div>
+          <div class="quote-credentials">
+            <span class="client-name">Estelle Zeliszewski</span>, <span class="client-position">Content Marketing Manager</span> at <span class="client-company"><a href="https://www.shine.fr/", target="_blank">Shine</a></span>
+          </div>
         </div>
       </div>
-      <div class="workshop-video">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" type="text/html" src="https://www.youtube.com/embed/gd6nF6DMO80?autoplay=0"></iframe>
+      <div class="col-sm-6">
+        <div class="card card-quote">
+          <div class="quote">
+            I’ve worked with Sophie over the past 2 years at AB Tasty. We’ve worked closely on our content marketing initiatives, sharing knowledge and best practices and working together to scale our global content strategy. Sophie is a highly skilled content writer who brings interesting and forward-thinking ideas to the table that are consistently relevant, not only in France, but globally. She is research-driven, professional and always thinking outside the box.
+          </div>
+          <div class="quote-credentials">
+            <span class="client-name">Nina Reschovsky</span>, <span class="client-position">UK Marketing & Global Strategy Manager</span> at <span class="client-company"><a href="https://www.shine.fr/", target="_blank">AB Tasty</a></span>
+          </div>
         </div>
       </div>
     </div>
