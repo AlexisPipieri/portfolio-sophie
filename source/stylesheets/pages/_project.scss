@@ -1,5 +1,19 @@
 #projects {
   padding-top: 100px;
+  margin-bottom: 50px;
+}
+@media(max-width: 600px) {
+  #projects {
+    padding-top: 50px;
+  }
+}
+
+.articles {
+  margin-top: 30px;
+}
+
+#strategy-quotes {
+  margin-top: 30px;
 }
 
 // Bootstrap tabs redesign

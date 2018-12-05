@@ -1,17 +1,24 @@
-.card-article {
-  height: 400px;
+.card {
   background-color: white;
   border-radius: 3px;
   box-shadow: 0 1px 10px 0 hsla(0, 0%, 0%, 0.2);
   margin: 20px 0;
   padding: 20px;
   text-align: left;
+}
+
+.card-quote {
+  font-size: 16px;
+}
+
+.card-article {
+  height: 375px;
   color: $gray;
   transition: all 250ms cubic-bezier(.02, .01, .47, 1);
   position: relative;
   &:hover {
     box-shadow: 0 1px 20px 0 hsla(0, 0%, 0%, 0.2);
-    transform: translate(0,-10px);
+    transform: translate(0,-3px);
     transition-delay: 0s !important;
   }
 }
@@ -19,4 +26,10 @@
 .card-quote{
   margin: 20px;
   padding: 20px;
+}
+.card-quote:before {
+  content: url(/images/quote_open.svg);
+  position: relative;
+  top: -32px;
+  left: -46px;
 }

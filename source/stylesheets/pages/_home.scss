@@ -45,3 +45,8 @@ body {
   width: 50%;
   margin: 0 auto;
 }
+@media(max-width: 500px) {
+  #home-title {
+    width: 80%;
+  }
+}

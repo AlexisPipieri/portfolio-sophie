@@ -16,9 +16,9 @@
     },
     {
       "link": "https://www.cm.com/fr-fr/whatsapp/pourquoi-comment-api-entreprises/",
-      "logo": "",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1544045000/cm.png",
       "title": "Pourquoi et comment utiliser la nouvelle API de WhatsApp pour les entreprises?",
-      "image": "",
+      "image": "https://www.cm.com/fr-fr/img/whatsapp/porquoi/how-to-whatsapp.png",
       "tag": "SEO"
     },
     {
@@ -58,23 +58,23 @@
     },
     {
       "link": "https://www.abtasty.com/fr/cas-clients/ysl-beaute-augmente-transaction-online/",
-      "logo": "",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
       "title": "Yves Saint Laurent Beauté augmente ses transactions en ligne de + 10%",
-      "image": "",
+      "image": "https://www.abtasty.com/content/uploads/bb-plugin/cache/YSLfeature-portrait.jpg",
       "tag": "Use case"
     },
     {
       "link": "https://www.abtasty.com/fr/livres-blancs/3-methodes-infaillibles-pour-booster-impact-tests/",
-      "logo": "",
-      "title": "3 méthodes infaillibles pour booster l’impact de vos testsd",
-      "image": "",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
+      "title": "3 méthodes infaillibles pour booster l’impact de vos tests",
+      "image": "https://www.abtasty.com/content/uploads/couverture.png",
       "tag": "ebook"
     },
     {
       "link": "https://www.cm.com/fr-fr/guides/whatsapp/",
-      "logo": "",
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1544045000/cm.png",
       "title": "Le guide complet pour tout savoir sur la nouvelle API WhatsApp pour les entreprises",
-      "image": "",
+      "image": "https://www.cm.com/fr-fr/img/whatsapp/guide/illustration-guide-article.png",
       "tag": "ebook"
     }
   ]
