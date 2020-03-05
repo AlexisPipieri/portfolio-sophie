@@ -1,36 +1,36 @@
 {
   "startups": [
     {
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063558/logo-lewagon.png",
-      "link": "https://lewagon.com"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583407923/logo-doctolib.svg",
+      "link": "https://doctolib.com"
     },
     {
       "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
       "link": "https://www.abtasty.com"
     },
     {
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063320/logo-alan.svg",
-      "link": "https://www.alan.eu"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583408207/Logo-radio-france.svg",
+      "link": "https://www.radiofrance.fr"
     },
     {
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063470/logo-comet.png",
-      "link": "https://www.hellocomet.co"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583409486/logo-docusign.svg",
+      "link": "https://www.docusign.com"
     },
     {
       "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063449/shine-logo.jpg",
       "link": "https://www.shine.fr"
     },
     {
-      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
-      "link": "https://www.spendesk.com"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583408601/logo-blablacar.svg",
+      "link": "https://www.blablacar.fr"
     },
     {
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063517/logo-uptilab.png",
-      "link": "https://www.uptilab.com"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583409090/logo-pelostudio.svg",
+      "link": "https://pelo.studio/"
     },
     {
-      "logo": "http://res.cloudinary.com/alexispip/image/upload/v1527063428/logo-shapr.png",
-      "link": "https://www.shapr.co"
+      "logo": "https://res.cloudinary.com/alexispip/image/upload/v1583414373/logo-upflow.svg",
+      "link": "https://upflow.io"
     }
   ]
 }

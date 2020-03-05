@@ -1,0 +1,58 @@
+<div id="work">
+  <div class="startups-logo">
+    <div class="row">
+      <% data.startups.startups.each do |startup| %>
+        <div class="col-xs-6 col-md-3">
+          <div class="card-logo" style="background-image: url(<%= startup["logo"] %>);">
+            <a target=blank class="card-link" href=<%= startup["link"] %> ></a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card-project" style="background-image: url(https://res.cloudinary.com/alexispip/image/upload/v1583403346/Radio_France-cover.png)">
+      <div class="overlay">
+        <div class="project-details">
+          <h2>Radio France</h2>
+          <p>UX Writing</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/alexispip/image/upload/v1583332696/Doctolib-cover.png)">
+      <div class="project-details">
+        <h2>Doctolib</h2>
+        <p>UX Writing</p>
+      </div>
+    </div>
+
+    <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/alexispip/image/upload/v1583403334/Docusign-cover.png)">
+      <div class="project-details">
+        <h2>Docusign</h2>
+        <p>UX Writing</p>
+      </div>
+    </div>
+
+    <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/alexispip/image/upload/v1583403315/Blablacar-cover.png)">
+      <div class="project-details">
+        <h2>BlaBlaCar</h2>
+        <p>UX Writing</p>
+      </div>
+    </div>
+
+    <div class="card-project" style="background-image: url(https://res.cloudinary.com/alexispip/image/upload/v1583403377/Upflow-cover.png)">
+      <div class="project-details">
+        <h2>Upflow</h2>
+        <p>UX Writing</p>
+      </div>
+    </div>
+
+    <div class="card-project" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/alexispip/image/upload/v1583403377/Upflow-cover.png)">
+      <div class="project-details">
+        <h2>Upflow</h2>
+        <p>Website copywriting</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "cover": "https://res.cloudinary.com/alexispip/image/upload/v1583332696/Doctolib.png",
+      "company": "Radio France",
+      "mission": "UX Writing"
+    },
+    {
+      "cover": "https://res.cloudinary.com/alexispip/image/upload/v1527063763/logo-abtasty.png",
+      "company": "Doctolib",
+      "mission": "UX Writing"
+    },
+    {
+      "cover": "http://res.cloudinary.com/alexispip/image/upload/v1527063320/logo-alan.svg",
+      "company": "Docusign",
+      "mission": "UX Writing"
+    },
+    {
+      "cover": "http://res.cloudinary.com/alexispip/image/upload/v1527063470/logo-comet.png",
+      "company": "BlaBlaCar",
+      "mission": "UX Writing"
+    },
+    {
+      "cover": "http://res.cloudinary.com/alexispip/image/upload/v1527063449/shine-logo.jpg",
+      "company": "Upflow",
+      "mission": "UX Writing"
+    },
+    {
+      "cover": "https://res.cloudinary.com/alexispip/image/upload/v1527071631/Spendesk-logo-wide-purple.png",
+      "company": "Upflow",
+      "mission": "UX Writing"
+    }
+  ]
+}
