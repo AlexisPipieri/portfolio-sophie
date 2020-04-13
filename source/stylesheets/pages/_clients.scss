@@ -11,6 +11,7 @@
   margin: 0 auto;
   width: 60vw;
   margin-top: 30px;
+  margin-bottom: 64px;
 }
 @media(max-width: 600px) {
   .startups-logo {
@@ -61,11 +62,12 @@
 .quote {
   position: relative;
   top: -32px;
+  font-weight: 300;
 }
 
 .clients-quotes {
   margin-top: 70px;
 }
 .quote-credentials {
-  font-weight: 600;
+  font-weight: 500;
 }
