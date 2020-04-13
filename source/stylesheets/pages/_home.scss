@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  color: $gray;
   h1 {
     color: $gray;
     letter-spacing: 0.1em;
@@ -16,6 +17,10 @@ body {
   p {
     margin: 0 0 20px;
     line-height: 1.6em;
+    font-weight: 300;
+  }
+  h2 {
+    font-weight: 500;
   }
 }
 // .content-wrapper {
